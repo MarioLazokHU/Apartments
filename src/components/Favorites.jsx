@@ -48,7 +48,7 @@ const Favorites = React.memo(({ favoriteApartments, onClose }) => {
             </svg>
           </button>
         </div>
-        <div className="max-h-82 overflow-y-auto">
+        <div className="max-h-80 overflow-y-auto">
           <ul className="space-y-4">
             {favoriteApartmentsData.map((apartment) => (
               <FavoriteApartment key={apartment.id} apartment={apartment} />

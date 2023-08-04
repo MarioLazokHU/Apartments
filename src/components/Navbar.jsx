@@ -1,4 +1,3 @@
-// Navbar.js
 import React, { useState, useEffect, memo } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { logoutUser } from '../services/actions';
